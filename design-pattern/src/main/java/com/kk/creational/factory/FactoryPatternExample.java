@@ -1,4 +1,4 @@
-package com.kk.factory;
+package com.kk.creational.factory;
 
 abstract class Vehicle {
     public abstract int getWheel();

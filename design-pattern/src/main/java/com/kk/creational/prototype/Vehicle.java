@@ -1,4 +1,4 @@
-package com.kk.prototype;
+package com.kk.creational.prototype;
 
 import java.util.ArrayList;
 import java.util.List;

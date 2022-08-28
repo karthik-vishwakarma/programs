@@ -1,4 +1,4 @@
-package com.kk.builder;
+package com.kk.creational.builder;
 
 public class Vehicle {
 

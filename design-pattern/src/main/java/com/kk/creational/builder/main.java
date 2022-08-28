@@ -1,4 +1,4 @@
-package com.kk.builder;
+package com.kk.creational.builder;
 
 public class main {
     public static void main(String[] args) {

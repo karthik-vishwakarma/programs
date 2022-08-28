@@ -1,4 +1,4 @@
-package com.kk.singleton.eager;
+package com.kk.creational.singleton.eager;
 
 public class Main {
     public static void main(String[] args) {

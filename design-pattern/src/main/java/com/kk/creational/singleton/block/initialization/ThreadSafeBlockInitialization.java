@@ -1,4 +1,4 @@
-package com.kk.singleton.block.initialization;
+package com.kk.creational.singleton.block.initialization;
 
 public class ThreadSafeBlockInitialization {
     private static ThreadSafeBlockInitialization instance;

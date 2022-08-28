@@ -1,4 +1,4 @@
-package com.kk.singleton.eager;
+package com.kk.creational.singleton.eager;
 
 public class EagerSingleton {
     private static final EagerSingleton instance = new EagerSingleton();

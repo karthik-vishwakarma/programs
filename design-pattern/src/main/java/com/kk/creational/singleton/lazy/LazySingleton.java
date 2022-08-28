@@ -1,4 +1,4 @@
-package com.kk.singleton.lazy;
+package com.kk.creational.singleton.lazy;
 
 public class LazySingleton {
 

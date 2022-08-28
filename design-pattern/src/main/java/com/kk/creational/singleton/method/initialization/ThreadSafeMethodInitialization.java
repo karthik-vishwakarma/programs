@@ -1,4 +1,4 @@
-package com.kk.singleton.method.initialization;
+package com.kk.creational.singleton.method.initialization;
 
 public class ThreadSafeMethodInitialization {
     private static ThreadSafeMethodInitialization instance;
