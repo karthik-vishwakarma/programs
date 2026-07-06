@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <!--<link href="assets/images/favicon.png" rel="icon" />-->
+    <title>Problem Solving</title>
+    <meta name="description" content="The Competitive Question and Answer">
+
+    <!-- Stylesheet
+    ============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css"/>
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css"/>
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css"/>
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css"/>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css"/>
+</head>
+
+<body class="box" data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+    <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Preloader End -->
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper">
+
+    <!-- Header
+    ============================ -->
+    <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+            <div class="container-fluid">
+                <!-- Sidebar Toggler -->
+                <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+                        class="w-75"></span><span class="w-50"></span></button>
+
+                <!-- Logo -->
+                <a class="logo1 ml-md-3" href="index.html" title="Problem Solving">Problem Solving</a>
+                <span class="text-2 ml-2">v1.0</span>
+                <!-- Logo End -->
+
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav">
+                    <span></span><span></span><span></span></button>
+
+                <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+    ============================ -->
+    <div id="content" role="main">
+
+        <!-- Sidebar Navigation
+        ============================ -->
+        <div class="idocs-navigation bg-light">
+            <ul class="nav flex-column ">
+                <li class="nav-item"><a class="nav-link active" href="#idocs_array">Array</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#idocs_SubArrayWithGivenSum">SubArrayWithGivenSum</a>
+                        </li>
+                        <!--ADD HERE NEW ClASS-->
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#idocs_number">Number</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#idocs_twosum">Two Sum</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_addtwonumbers">Add Two Numbers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_swaptwonumbers">Swap Two Numbers</a></li>
+                        <!--ADD HERE NEW ClASS-->
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#idocs_string">String</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#idocs_reversestring">Reverse string</a></li>
+                        <!--ADD HERE NEW ClASS-->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Docs Content
+        ============================ -->
+        <div class="idocs-content">
+            <div class="container">
+                <!-- Array
+                ============================ -->
+                <section id="idocs_array">
+                    <h1>Problem Solving</h1>
+                    <hr class="divider">
+                    <h2>Array</h2>
+                </section>
+
+                <!-- SubArrayWithGivenSum
+                ============================ -->
+                <section id="idocs_SubArrayWithGivenSum" class="code-container">
+                    <h3>Sub Array With Given Sum</h3>
+                    <p class="lead">Given an unsorted array A of size N that contains only non-negative integers, find a
+                        continuous sub-array which adds to a given number S.</p>
+                    <blockquote>
+                        <p>Input:<br>
+                            N = 5, S = 12<br>
+                            A[] = {1,2,3,7,5}<br>
+                            Output: 2 4<br>
+                            Explanation: The sum of elements from 2nd position to 4th position is
+                            12.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Input:<br>
+                            N = 10, S = 15<br>
+                            A[] = {1,2,3,4,5,6,7,8,9,10}<br>
+                            Output: 1 5<br>
+                            Explanation: The sum of elements from 1st position to 5th position is 15.</p>
+                    </blockquote>
+                    <pre><code id="code1" data-file="src/main/java/com/kk/array/SubArrayWithGivenSum.java"></code></pre>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Number
+                   ============================ -->
+                <section id="idocs_number">
+                    <h2>Number</h2>
+                </section>
+
+                <!-- TwoSum
+                ============================ -->
+                <section id="idocs_twosum" class="code-container">
+                    <h3>Two Sum</h3>
+                    <blockquote>
+                        <p>Input:<br>
+                            nums = [2,7,11,15], target = 9<br>
+                            Output: [0,1]<br>
+                            Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Input:<br>
+                            nums = [3,2,4], target = 6<br>
+                            Output: [1,2]
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Input:<br>
+                            nums = [3,3], target = 6<br>
+                            Output: [0,1]
+                        </p>
+                    </blockquote>
+                    <pre><code data-file="src/main/java/com/kk/number/TwoSum.java"></code></pre>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Add Two Numbers
+                      ============================ -->
+                <section id="idocs_addtwonumbers" class="code-container">
+                    <h3>Add Two Numbers</h3>
+                    <blockquote>
+                        <p>Input:<br>
+                            l1 = [2,4,3], l2 = [5,6,4]<br>
+                            Output: [7,0,8]<br>
+                            Explanation: 342 + 465 = 807
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Input:<br>
+                            l1 = [0], l2 = [0]<br>
+                            Output: [0]
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Input:<br>
+                            l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]<br>
+                            Output: [8,9,9,9,0,0,0,1]
+                        </p>
+                    </blockquote>
+                    <pre><code data-file="src/main/java/com/kk/number/AddTwoNumbers.java"></code></pre>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Swap Two Numbers
+                ============================ -->
+                <section id="idocs_swaptwonumbers" class="code-container">
+                    <h3>Swap two numbers without using the third variable</h3>
+                    <pre>
+                        <code data-file="src/main/java/com/kk/number/SwapTwoNumberWithoutThirdVariable.java"></code>
+                    </pre>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Number
+                ============================ -->
+                <section id="idocs_string">
+                    <h2>String</h2>
+                </section>
+
+                <!-- Swap Two Numbers
+                ============================ -->
+                <section id="idocs_reversestring" class="code-container">
+                    <h3>Reverse a string without using String inbuilt function</h3>
+                    <pre>
+                        <code data-file="src/main/java/com/kk/string/FinalReverseWithoutUsingStringMethods.java"></code>
+                    </pre>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+    ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+<!--        <div class="container">-->
+<!--            <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">-->
+<!--                <li><a data-toggle="tooltip" href="" target="_blank" title=""-->
+<!--                       data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>-->
+<!--                <li><a data-toggle="tooltip" href="" target="_blank" title=""-->
+<!--                       data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>-->
+<!--                <li><a data-toggle="tooltip" href="" target="_blank" title=""-->
+<!--                       data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>-->
+<!--                <li><a data-toggle="tooltip" href="https://github.com/karthik-vishwakarma" target="_blank" title=""-->
+<!--                       data-original-title="GitHub"><i class="fab fa-github"></i></a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+    </footer>
+    <!-- Footer end -->
+
+</div>
+<!-- Document Wrapper end -->
+
+<!-- Back To Top -->
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script>
+<!-- Easing -->
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<!-- Magnific Popup -->
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/loadcode.js"></script>
+</body>
+</html>
