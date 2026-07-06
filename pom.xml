@@ -26,5 +26,8 @@
         <module>multithreading</module>
         <module>problem-solving</module>
         <module>user</module>
+        <module>file</module>
+        <module>firebase-cloud-storage</module>
+        <module>jpa</module>
     </modules>
 </project>
