@@ -24,5 +24,7 @@
         <module>json-schema-validation</module>
         <module>lambda-expressions</module>
         <module>multithreading</module>
+        <module>problem-solving</module>
+        <module>user</module>
     </modules>
 </project>
